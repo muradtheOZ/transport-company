@@ -1,0 +1,21 @@
+.left-side p {
+    font-weight: 800;
+    font-size: 78px;
+    line-height: 93px;
+    color: #000000;
+}
+
+.left-side a {
+    width: 252px;
+    height: 65px;
+    background: #000000;
+    color: #ffffff;
+    border-radius: 41.5789px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}

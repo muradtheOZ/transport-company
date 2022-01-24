@@ -5,7 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg">
+            <nav className="navbar navbar-expand-lg navbar-light">
                 <div className="container">
                     <a className="navbar-brand" href="#"> <img src={logo} alt="" width="129" height="32"/></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,8 +19,8 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Features</a>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Contact Us</a>
+                            <li className="nav-item nav-active">
+                                <a className="nav-link tex-center " href="#">Contact Us</a>
                             </li>
                         </ul>
                     </div>

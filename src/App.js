@@ -1,10 +1,13 @@
 
 import './App.css';
-import Navbar from './Component/Navigation/Navbar'
+import Header from './Component/HeaderMain/Header';
+import WhyOtoRide from './Component/WhyOtoRide/WhyOtoRide';
 function App() {
   return (
     <div>
-      <Navbar></Navbar>
+      <Header></Header>
+      <WhyOtoRide></WhyOtoRide>
+
      
     </div>
   );

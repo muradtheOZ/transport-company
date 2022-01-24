@@ -1,7 +1,16 @@
-.navbar-nav a{
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
+.nav-item a {
+    font-style: normal!important;
+    font-weight: bold!important;
+    font-size: 16px!important;
+    color: #000000!important;
+    line-height: 18px!important;
+}
 
-color: #000000;
+.nav-active a {
+    color: #ffffff!important;
+    width: 121px!important;
+    height: 38px!important;
+    background: #000000;
+    border-radius: 20px;
+    text-align: center!important;
 }
