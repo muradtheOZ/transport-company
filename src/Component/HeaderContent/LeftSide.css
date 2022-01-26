@@ -1,4 +1,4 @@
-.left-side p {
+.left-side h2 {
     font-weight: 800;
     font-size: 78px;
     line-height: 93px;
@@ -18,4 +18,16 @@
     letter-spacing: 0em;
     text-align: center;
     text-transform: uppercase;
+}
+
+.gray-color {
+    font-size: 14px;
+    line-height: 146.84%;
+    /* identical to box height, or 21px */
+    color: #858585;
+}
+
+.left-side-brand img {
+    width: 97px;
+    height: 48px;
 }

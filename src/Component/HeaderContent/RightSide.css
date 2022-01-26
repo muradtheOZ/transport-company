@@ -1,4 +1,5 @@
 .header-image img {
     width: 100%;
-    object-fit: cover;
+    height: 600px;
+    object-fit: contain;
 }

@@ -1,4 +1,4 @@
-#gradient-canvas {
+/* #gradient-canvas {
     width: 100%;
     height: 100%;
     --gradient-color-1: #F88DEA;
@@ -24,4 +24,8 @@
 
 #infoi {
     z-index: 10;
+} */
+
+.header {
+    background-image: linear-gradient( #F88DEA, #9A65F3, #FFFFFF, #BFFFF8);
 }
