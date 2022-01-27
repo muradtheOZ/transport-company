@@ -8,8 +8,8 @@ import scooter4 from '../../assets/scooter4.png'
 const KickScooter = () => {
     return (
         <div className="scooter">
-            <div className=" center-me mt-4 pt-3">
-                <div className="heading-part">
+            <div className="mt-4 pt-3">
+                <div className="heading-part text-center">
                     <h2 className="container text-center mt-4 pt-3 mb-3">Kick scooters, scooters, bikes, e-bikes and more in one app</h2>
                     <p className="container text-center mt-5 pt-4"><a className="btn btn-lg " href="#" role="button">get Started</a></p>
                 </div>
