@@ -1,0 +1,37 @@
+.custom-top-card-image {
+    height: 85px;
+    width: 85px;
+    object-fit: contain;
+}
+
+.custom-card-height {
+    height: 493px;
+    width: 274px;
+}
+
+.custom-card-shadow {
+    border-color: white !important;
+    box-shadow: 0px 0px 0px grey;
+    -webkit-transition: box-shadow .6s ease-out;
+}
+
+.custom-card-shadow:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition: box-shadow .6s ease-in;
+    cursor: pointer;
+}
+
+.custom-card-title {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.custom-card-text {
+    color: #858585;
+    font-size: 18px;
+}
+
+.display-oto h2 {
+    font-size: 64px;
+    font-weight: 700;
+}

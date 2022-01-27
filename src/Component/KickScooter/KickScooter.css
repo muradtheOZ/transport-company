@@ -1,11 +1,4 @@
-.left-side h2 {
-    font-weight: 800;
-    font-size: 78px;
-    line-height: 93px;
-    color: #000000;
-}
-
-.left-side a {
+.heading-part a {
     width: 252px;
     height: 65px;
     background: #000000;
@@ -20,17 +13,19 @@
     text-transform: uppercase;
 }
 
-.left-side a:hover {
+.center-me {
+    width: 100%;
+}
+
+.heading-part a:hover {
     color: #ffffff;
 }
 
-.gray-color {
-    font-size: 14px;
-    /* identical to box height, or 21px */
-    color: #858585;
+.heading-part h2 {
+    font-size: 64px;
+    font-weight: 700;
 }
 
-.left-side-brand img {
-    width: 97px;
-    height: 48px;
+.scooter {
+    background-color: #F5F5F5;
 }

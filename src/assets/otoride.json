@@ -1,26 +1,25 @@
-[
-  {
-    "_id": "61f171e45bb6093119ab74d6",
-    "picture": "http://placehold.it/32x32",
-    "title": "All-In-One Multiple Vehicle Solution",
-    "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
-  },
-  {
-    "_id": "61f171e402fe5f10e1e6fd24",
-    "picture": "http://placehold.it/32x32",
-    "title": "Advanced Feature & Technology ",
-    "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
-  },
-  {
-    "_id": "61f171e4b1071e8a2340067e",
-    "picture": "http://placehold.it/32x32",
-    "title": "Fully Customizable Software",
-    "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
-  },
-  {
-    "_id": "61f171e4bc6532f588834dd6",
-    "picture": "http://placehold.it/32x32",
-    "title": "Greate User Experience",
-    "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
-  }
+[{
+        "_id": "61f171e45bb6093119ab74d6",
+        "picture": "https://i.ibb.co/bsz0RT7/light-bg.jpg",
+        "title": "All-In-One Multiple Vehicle Solution",
+        "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
+    },
+    {
+        "_id": "61f171e402fe5f10e1e6fd24",
+        "picture": "https://i.ibb.co/1fg5Ywx/puzzle-bg.jpg",
+        "title": "Advanced Feature & Technology ",
+        "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
+    },
+    {
+        "_id": "61f171e4b1071e8a2340067e",
+        "picture": "https://i.ibb.co/Y8HqZjN/customization-bg.jpg",
+        "title": "Fully Customizable Software",
+        "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
+    },
+    {
+        "_id": "61f171e4bc6532f588834dd6",
+        "picture": "https://i.ibb.co/FsswMFR/user-exp-bg.jpg",
+        "title": "Greate User Experience",
+        "description": "We’ll help you to integrate any vehicle type to OTORide platform. It may be kickn scooter, Any other type of scooters,"
+    }
 ]
