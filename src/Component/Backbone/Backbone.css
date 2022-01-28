@@ -1,0 +1,46 @@
+.backbone {
+    width: 100%;
+    background-color: #000000;
+}
+
+.backbone h2 {
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+.backbone h4 {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #CCCCCC;
+}
+
+.backbone a {
+    width: 252px;
+    height: 65px;
+    color: #000000;
+    background: #FEFB00;
+    border-radius: 41.5789px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.backbone a:hover {
+    color: #000000;
+}
+
+.backbone img {
+    width: 100%;
+    height: 716px;
+    object-fit: contain;
+}
+
+
+/* ; */

@@ -1,0 +1,40 @@
+.visa {
+    width: 100%;
+    height: 193px;
+    object-fit: contain;
+}
+
+.discount {
+    width: 100%;
+    height: 545px;
+    object-fit: contain;
+}
+
+.login {
+    width: 100%;
+    height: 688px;
+    object-fit: cover;
+}
+
+.payment h2 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 76px;
+    color: #000000;
+}
+
+.payment h4 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #858585;
+}
+
+.payment {
+    background-image: url(../../assets/round.png);
+    background-repeat: no-repeat;
+    background-position: 40% 100%;
+    background-size: auto 400px;
+}

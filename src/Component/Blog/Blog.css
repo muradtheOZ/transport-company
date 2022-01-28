@@ -31,13 +31,13 @@
 
 .custom-blog-top-card-image {
     height: 350px;
-    width: 187px;
+    width: 100%;
     object-fit: contain;
 }
 
 .custom-blog-card-height {
     height: 350px;
-    width: 369px;
+    width: 100%;
 }
 
 .custom-blog-card-title {

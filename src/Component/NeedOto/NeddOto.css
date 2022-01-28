@@ -1,0 +1,27 @@
+.oto {
+    background: #FFFC00;
+}
+
+.oto h2 {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 95px;
+    color: #000000;
+}
+
+.oto h4 {
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 84px;
+    color: #FFFC00;
+    text-shadow: -1px -1px 0px #000, 0px -1px 0px #000, 1px -1px 0px #000, -1px 0px 0px #000, 1px 0px 0px #000, -1px 1px 0px #000, 0px 1px 0px #000, 1px 1px 0px #000;
+}
+
+.hr-style {
+    height: 3px;
+    width: 30%;
+    border-width: 2px;
+    color: #000000;
+    background-color: #000000;
+    padding-bottom: 3px;
+}
