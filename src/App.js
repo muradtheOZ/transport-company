@@ -6,7 +6,6 @@ import Header from './Component/HeaderMain/Header';
 import KickScooter from './Component/KickScooter/KickScooter';
 import OperatorApplication from './Component/OperatorApplication/OperatorApplication';
 import Payments from './Component/Payments/Payments';
-import SuccessOnOtoRide from './Component/SuccessOnOtoRide/SuccessOnOtoRide';
 import UserAplication from './Component/UserAplication/UserAplication';
 import WhyOtoRide from './Component/WhyOtoRide/WhyOtoRide';
 import Backbone from './Component/Backbone/Backbone';
@@ -21,7 +20,6 @@ function App() {
       <AdminApplication></AdminApplication>
       <OperatorApplication></OperatorApplication>
       <KickScooter></KickScooter>
-      <SuccessOnOtoRide></SuccessOnOtoRide>
       <Blog></Blog>
       <Payments></Payments>
       <Backbone></Backbone>

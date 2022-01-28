@@ -26,7 +26,7 @@
 }
 
 .blog a:hover {
-    color: #ffffff;
+    color: #000000;
 }
 
 .custom-blog-top-card-image {
@@ -55,4 +55,10 @@
 .display-oto h2 {
     font-size: 64px;
     font-weight: 700;
+}
+
+.custom-blog-card-shadow:hover {
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition: box-shadow .4s ease-in;
+    cursor: pointer;
 }

@@ -13,7 +13,7 @@ const Blog = () => {
             <div className="text-center container">
                 <div className="row mt-4 pt-3">
                     <div className="col-md-4 ">
-                        <div class="card custom-blog-card-height">
+                        <div class=" custom-blog-card-shadow card custom-blog-card-height">
                             <img src={blogimg} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 className="card-title custom-blog-card-title ">[Interview]Game-Changing Hands-on Services for MaaS Providers</h5>
@@ -23,7 +23,7 @@ const Blog = () => {
                     </div>
 
                     <div className="col-md-4 ">
-                        <div class="card custom-blog-card-height">
+                        <div class=" custom-blog-card-shadow card custom-blog-card-height">
                             <img src={blogimg} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 className="card-title custom-blog-card-title ">[Interview]Game-Changing Hands-on Services for MaaS Providers</h5>
@@ -33,7 +33,7 @@ const Blog = () => {
                     </div>
 
                     <div className="col-md-4 ">
-                        <div class="card custom-blog-card-height">
+                        <div class="custom-blog-card-shadow card custom-blog-card-height">
                             <img src={blogimg} class="card-img-top" alt="..." />
                             <div class="card-body">
                                 <h5 className="card-title custom-blog-card-title ">[Interview]Game-Changing Hands-on Services for MaaS Providers</h5>

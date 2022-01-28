@@ -1,13 +1,48 @@
 import './AdminApplication.css'
 import  laptop1 from '../../assets/laptop1.png'
+import  laptop2 from '../../assets/laptop2.png'
+import  laptop3 from '../../assets/laptop3.png'
+
 import  user from '../../assets/user.svg'
 import  trip from '../../assets/trip.svg'
 import  offers from '../../assets/offers.svg'
 
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const AdminApplication = () => {
+    const[imageData,setImageData] = useState()
+    let count = 1
+
+    useEffect(() => {
+        
+        const interval = setInterval(() => {
+            if(count % 3 === 1){
+                setImageData(laptop1);
+                count++;
+                if(count > 3){
+                    count = 1
+                }
+
+            }
+            else if(count % 3 === 2){
+                setImageData(laptop2);
+                count++;
+                if(count > 3){
+                    count = 1
+                }
+            }
+            else{
+                setImageData(laptop3);
+                count++;
+                if(count > 3){
+                    count = 1
+                }
+            }
+        }, 3000);
+        
+        return () => clearInterval(interval);
+      }, []);
     return (
         <div className="row mt-5 pt-5 mb-5 pb-5">
             <div className="col-md-6 left-side-user">
@@ -34,7 +69,7 @@ const AdminApplication = () => {
             </div>
             </div>
             <div className="col-md-6 admin-application">
-                <img src={laptop1} alt="" />
+                <img src={imageData} alt="" />
             </div>
 
         </div>
