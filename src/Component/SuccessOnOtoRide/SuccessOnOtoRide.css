@@ -99,3 +99,8 @@
     /* identical to box height, or 22px */
     color: #000000;
 }
+
+.active {
+    background-size: 158px, 54px;
+    background-color: #F8F8F8;
+}
