@@ -10,7 +10,7 @@ import multipleLanguage from '../../assets/multiplelanguage.svg'
 import React, { useEffect, useState } from 'react';
 
 const UserAplication = () => {
-    const[imageData,setImageData] = useState()
+    const[imageData,setImageData] = useState("https://i.ibb.co/P4jBXt1/firstmobile.png")
     let [count,setCount] = useState(0)
 
     useEffect(() => {
@@ -18,21 +18,21 @@ const UserAplication = () => {
         const interval = setInterval(() => {
             setCount(count++)
             if(count % 3 === 1){
-                setImageData(mobileOne);
+                setImageData("https://i.ibb.co/P4jBXt1/firstmobile.png");
                 if(count > 3){
                     setCount(1)
                 }
 
             }
             else if(count % 3 === 2){
-                setImageData(mobileTwo);
+                setImageData("https://i.ibb.co/Ms7f2Hx/secondmoblie.png");
                 count++;
                 if(count > 3){
                     setCount(1)
                 }
             }
             else{
-                setImageData(mobileThree);
+                setImageData("https://i.ibb.co/MM3bw84/thirdmobile.png");
                 count++;
                 if(count > 3){
                     setCount(1)

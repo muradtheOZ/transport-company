@@ -13,6 +13,7 @@
      --gradient-color-3: #FFFFFF;
      --gradient-color-4: #BFFFF8;
      z-index: 0;
+     mix-blend-mode: darken;
  }
  
  #top-content {
