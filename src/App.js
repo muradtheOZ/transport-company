@@ -11,6 +11,7 @@ import WhyOtoRide from './Component/WhyOtoRide/WhyOtoRide';
 import Backbone from './Component/Backbone/Backbone';
 import NeddOto from './Component/NeedOto/NeddOto';
 import Footer from './Component/Footer/Footer';
+import SuccessOnOtoRide from './Component/SuccessOnOtoRide/SuccessOnOtoRide'
 function App() {
   return (
     <div>
@@ -20,6 +21,7 @@ function App() {
       <AdminApplication></AdminApplication>
       <OperatorApplication></OperatorApplication>
       <KickScooter></KickScooter>
+      <SuccessOnOtoRide></SuccessOnOtoRide>
       <Blog></Blog>
       <Payments></Payments>
       <Backbone></Backbone>

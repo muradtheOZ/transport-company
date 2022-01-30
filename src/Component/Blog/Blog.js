@@ -4,7 +4,7 @@ import blogimg from '../../assets/blogimg.png'
 
 const Blog = () => {
     return (
-        <div className="text-center ">
+        <div className="text-center section-blog ">
             <div className="blog pt-5 mt-5">
                 <h4>BLOG</h4>
                 <h2 className="text-center container">Discover our products technogies and clients</h2>

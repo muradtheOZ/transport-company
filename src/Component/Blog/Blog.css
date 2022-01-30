@@ -62,3 +62,7 @@
     -webkit-transition: box-shadow .4s ease-in;
     cursor: pointer;
 }
+
+.section-blog {
+    position: relative;
+}
