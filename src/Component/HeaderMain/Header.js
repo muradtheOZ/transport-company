@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-expressions */
-import React from 'react';
+import React, { useEffect } from 'react';
 import HeaderContent from '../HeaderContent/HeaderContent';
 import Navbar from '../Navigation/Navbar';
 import './Header.css'
@@ -516,21 +516,22 @@ const Header = () => {
       * Gradient.toggleColor(index)
       * Gradient.updateFrequency(freq)
       */
-      var gradient = new Gradient();
-          gradient.initGradient("#gradient-canvas");
+      useEffect(()=>{
+        var gradient = new Gradient();
+        gradient.initGradient("#gradient-canvas");
+      },[])
+      
 
     
     return (
-    //    <div id="main-set">
-    //         <div id="navi" >
-    //         <canvas id="gradient-canvas"data-transition-in> 
-    //         </canvas>
-    //         </div>  
-    //         id="infoi"
-            <div className="header">
+        <div id="main-div">
+        <canvas id="gradient-canvas">
+        </canvas>
+        <div id="top-content">
             <Navbar></Navbar>
             <HeaderContent></HeaderContent>
-            </div>
+        </div>
+    </div>  
     );
 };
 

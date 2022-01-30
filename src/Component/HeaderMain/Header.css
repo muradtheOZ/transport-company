@@ -1,32 +1,22 @@
-/* #gradient-canvas {
-    width: 100%;
-    height: 100%;
-    --gradient-color-1: #F88DEA;
-    --gradient-color-2: #9A65F3;
-    --gradient-color-3: #FFFFFF;
-    --gradient-color-4: #BFFFF8;
-}
-
-#main-set {
-    width: 100%;
-    height: 700px;
-    position: relative;
-}
-
-#navi,
-#infoi {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-#infoi {
-    z-index: 10;
-} */
-
-.header {
-    background-image: linear-gradient( #F88DEA, #9A65F3, #FFFFFF, #BFFFF8);
-    margin-bottom: 10%;
-}
+ #main-div {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100%;
+ }
+ 
+ #gradient-canvas {
+     width: 100%;
+     height: 720px;
+     --gradient-color-1: #F88DEA;
+     --gradient-color-2: #9A65F3;
+     --gradient-color-3: #FFFFFF;
+     --gradient-color-4: #BFFFF8;
+     z-index: 0;
+ }
+ 
+ #top-content {
+     position: absolute;
+     top: 0px;
+     z-index: 100;
+ }

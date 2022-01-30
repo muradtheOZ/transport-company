@@ -4,9 +4,9 @@ import RightSide from './RightSide';
 
 const HeaderContent = () => {
     return (
-            <div className="row">
+            <div className="row ">
                 <div className="col-md-6">
-                    <div className="ms-5 mt-3 pt-3 ps-5">
+                    <div className="ms-5 mt-3 pt-3 ps-5 ">
                         <LeftSide></LeftSide>
                     </div>
                 </div>
