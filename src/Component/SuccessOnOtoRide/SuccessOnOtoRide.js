@@ -24,8 +24,8 @@ const SuccessOnOtoRide = () => {
 
     const setDatasetTwo =()=>{
         setHover(true)
-        setImageData1("https://i.ibb.co/cw3mwMd/successotoright.png")
-        setImageData2("https://i.ibb.co/XZr1dDv/successotoavatar.png")
+        setImageData1("https://i.ibb.co/fpsjGMz/successotorighttwo.jpg")
+        setImageData2("https://i.ibb.co/FxhSbhd/Successotoavatartwo.png")
         setName("Leonard Park")
         setPosition("CEO, Hayde")
         setDescription("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.")
@@ -33,8 +33,8 @@ const SuccessOnOtoRide = () => {
 
     const setDatasetOne =()=>{
         setHover(true)
-        setImageData1("https://i.ibb.co/fpsjGMz/successotorighttwo.jpg")
-        setImageData2("https://i.ibb.co/FxhSbhd/Successotoavatartwo.png")
+        setImageData1("https://i.ibb.co/cw3mwMd/successotoright.png")
+        setImageData2("https://i.ibb.co/XZr1dDv/successotoavatar.png")
         setName("Rahim Darex")
         setPosition("CEO, Ignite")
         setDescription("Mario Rautenberg ist zum Chief Financial Officer von Wunder Mobility ernannt worden. Mario Rautenberg ist zum Chief Financial Officer von Wunder Mobility ernannt worden.")
