@@ -11,32 +11,30 @@ import  offers from '../../assets/offers.svg'
 import React, { useEffect, useState } from 'react';
 
 const AdminApplication = () => {
-    const[imageData,setImageData] = useState()
-    let count = 1
+    const[imageData,setImageData] = useState(laptop1)
+    let [count,setCount] = useState(0)
 
     useEffect(() => {
         
         const interval = setInterval(() => {
+            setCount(count++);
             if(count % 3 === 1){
                 setImageData(laptop1);
-                count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
 
             }
             else if(count % 3 === 2){
                 setImageData(laptop2);
-                count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
             }
             else{
                 setImageData(laptop3);
-                count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
             }
         }, 3000);

@@ -11,16 +11,16 @@ import React, { useEffect, useState } from 'react';
 
 const UserAplication = () => {
     const[imageData,setImageData] = useState()
-    let count = 1
+    let [count,setCount] = useState(0)
 
     useEffect(() => {
         
         const interval = setInterval(() => {
+            setCount(count++)
             if(count % 3 === 1){
                 setImageData(mobileOne);
-                count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
 
             }
@@ -28,14 +28,14 @@ const UserAplication = () => {
                 setImageData(mobileTwo);
                 count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
             }
             else{
                 setImageData(mobileThree);
                 count++;
                 if(count > 3){
-                    count = 1
+                    setCount(1)
                 }
             }
         }, 3000);
