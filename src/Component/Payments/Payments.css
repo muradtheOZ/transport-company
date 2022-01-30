@@ -37,4 +37,6 @@
     background-repeat: no-repeat;
     background-position: 40% 100%;
     background-size: auto 400px;
+    position: relative;
+    top: 15rem;
 }
