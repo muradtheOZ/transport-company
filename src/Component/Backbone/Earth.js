@@ -3,10 +3,10 @@ import { useFrame, useLoader } from "@react-three/fiber";
 import { OrbitControls, Stars } from "@react-three/drei";
 import * as THREE from "three";
 
-import EarthDayMap from "../../assets/earth-normal.jpg";
-import EarthNormalMap from "../../assets/earth-normal.jpg";
-import EarthSpecularMap from "../../assets/earth-normal.jpg";
-import EarthCloudsMap from "../../assets/earth-normal.jpg";
+import EarthDayMap from "../../assets/globetwo.png";
+import EarthNormalMap from "../../assets/globetwo.png";
+import EarthSpecularMap from "../../assets/earth-dark.jpg";
+import EarthCloudsMap from "../../assets/globetwo.png";
 import { TextureLoader } from "three";
 
 const Earth = (props) => {
