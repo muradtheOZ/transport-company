@@ -1,8 +1,17 @@
-import React from 'react';
+/* eslint-disable no-undef */
+import React, { Suspense, useEffect } from 'react';
 import './Backbone.css'
+import styled from 'styled-components';
 import globe from '../../assets/globe.png'
+import {Canvas} from "@react-three/fiber"
+import Earth from './Earth';
+
+
+
 
 const Backbone = () => {
+
+
     return (
         <div className="backbone pb-4">
             <div className="container">
@@ -14,11 +23,17 @@ const Backbone = () => {
                             <a className="btn btn-lg mt-5 mb-4" href="#" role="button">get Started</a>
                         </div>
                     </div>
-                    <div className="col-md-6 mt-4 pt-4">
-                        <img src={globe} alt="" />
+                    <div className="col-md-6 pt-5 text-white">
+                        
+                        <Canvas>
+                            <Suspense fallback={null}>
+                                <Earth></Earth>
+                            </Suspense>
+                        </Canvas>
                     </div>
                 </div>
             </div>
+            
 
         </div>
     );
