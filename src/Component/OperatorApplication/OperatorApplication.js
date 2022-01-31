@@ -19,19 +19,19 @@ const OperatorApplication = () => {
             <div className="col-md-6 right-side-user">
                 <div className="container">
                     <h4>Operator Application</h4>
-                    <h2>Easy and affordable</h2>
+                    <h2>Smart Vehicle Task Tracking App </h2>
                     <div className="mt-4 pt-3">
                         <div className="d-flex p-3 mt-3">
                             <img className="user-image-1" src={realtimeLocation} alt="" />
-                            <p className="text-center ps-4 ms-2 mt-2">Smart Task Management</p>
+                            <p className="text-center ps-4 ms-2 mt-2">Smart Vehicle Task Management</p>
                         </div>
                         <div className="d-flex p-3 mt-3">
                             <img className="user-image-2" src={fastUnlocking} alt="" />
-                            <p className="text-center ps-4 ms-2 mt-2">Realtime Vehicle Routing </p>
+                            <p className="text-center ps-4 ms-2 mt-2">Find problematic Vehicles by Advanced filters</p>
                         </div>
                         <div className="d-flex p-3 mt-3">
                             <img className="user-image-3" src={multipleLanguage} alt="" />
-                            <p className="text-center ps-4 ms-2 mt-2">Filter Vehicle by Issue type </p>
+                            <p className="text-center ps-4 ms-2 mt-2">Real Time navigation</p>
                         </div>
                         <a className="btn btn-lg mt-4" href="#" role="button">Learn More</a>
 

@@ -53,7 +53,7 @@ const UserAplication = () => {
             <div className="col-md-6 right-side-user">
                 <div className="container">
                     <h4>User Application</h4>
-                    <h2>The perfect app for your users and you</h2>
+                    <h2>Perfect Customizable Rider app</h2>
                     <div className="mt-4 pt-3">
                         <div className="d-flex p-3 mt-3">
                             <img className="user-image-1" src={realtimeLocation} alt="" />
@@ -65,7 +65,7 @@ const UserAplication = () => {
                         </div>
                         <div className="d-flex p-3 mt-3">
                             <img className="user-image-3" src={multipleLanguage} alt="" />
-                            <p className="text-center ps-4 ms-2 mt-2">Multiple Language Support</p>
+                            <p className="text-center ps-4 ms-2 mt-2">Our Interface and your brand.</p>
                         </div>
                         <a className="btn btn-lg mt-4" href="#" role="button">Learn More</a>
 
