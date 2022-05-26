@@ -43,7 +43,7 @@ const UserAplication = () => {
         return () => clearInterval(interval);
       }, []);
     return (
-        <div className="row container mt-5 pt-5 mb-4 pb-4">
+        <div className="user-application-main-class row container mt-5 pt-5 mb-4 pb-4">
             <div className="col-md-6 user-application">
                 <div className="container">
                     <img src={imageData} alt="" />

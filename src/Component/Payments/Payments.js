@@ -7,10 +7,10 @@ import discount from '../../assets/discount.png'
 const Payments = () => {
     return (
         <div className="payment">
-            <div className="d-flex container mt-5 pt-5">
+            {/* <div className="d-flex container mt-5 pt-5">
                 <h2>We are transforming cities through the power of state of art technology</h2>
                 <h4>Add different types of vehicles in the same app easily. Started with scooters, but want to add bikes? No problem! We’ll help you</h4>
-            </div>
+            </div> */}
 
             <div className="d-flex container mt-5 pt-5">
                 <div>

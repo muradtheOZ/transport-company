@@ -6,7 +6,7 @@
 }
 
 .blog h2 {
-    font-size: 64px;
+    font-size: 5vw!important;
     font-weight: 700;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .custom-blog-card-title {
-    font-size: 20.59px;
+    font-size: 90%;
     font-weight: 600;
     text-align: left;
 }

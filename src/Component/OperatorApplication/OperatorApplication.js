@@ -9,7 +9,9 @@ import React from 'react';
 
 const OperatorApplication = () => {
     return (
-        <div className="row container mt-5 pt-5 mb-4 pb-4">
+        <div className="mt-5 pt-5 mb-4 pb-4">
+
+<div className="operator-application-main-class row container m-auto">
             <div className="col-md-6 operator-application">
                 <div className="container">
                     <img src={operator} alt="" />
@@ -40,6 +42,8 @@ const OperatorApplication = () => {
             </div>
 
         </div>
+        </div>
+        
     );
 };
 

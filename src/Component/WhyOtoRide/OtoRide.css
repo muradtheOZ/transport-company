@@ -1,3 +1,11 @@
 .extra-margin {
-    margin-top: 200px;
+    margin-top: 100%;
+}
+.display-oto h2{
+    font-weight: 800;
+    font-size: 4vw;
+    color: #000000;
+}
+.card-area{
+    width: 95%;
 }

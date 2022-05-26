@@ -1,5 +1,5 @@
 .admin-application img {
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: contain;
 }
@@ -35,7 +35,7 @@
 }
 
 .left-side-user p {
-    font-size: 20px;
+    font-size: 80%;
 }
 
 .left-side-user a {
@@ -54,4 +54,8 @@
 
 .left-side-user a:hover {
     color: #ffffff;
+}
+.admin-application-main-class  h2{
+    font-size: 5vw;
+    color: #000000;
 }

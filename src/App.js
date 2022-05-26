@@ -14,7 +14,7 @@ import Footer from './Component/Footer/Footer';
 import SuccessOnOtoRide from './Component/SuccessOnOtoRide/SuccessOnOtoRide'
 function App() {
   return (
-    <div>
+    <div className="center">
       <Header></Header>
       <WhyOtoRide></WhyOtoRide>
       <UserAplication></UserAplication>
@@ -24,7 +24,7 @@ function App() {
       <SuccessOnOtoRide></SuccessOnOtoRide>
       <Blog></Blog>
       <Payments></Payments>
-      <Backbone></Backbone>
+      {/* <Backbone></Backbone> */}
       <NeddOto></NeddOto>
       <Footer></Footer>
 

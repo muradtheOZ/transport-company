@@ -38,5 +38,6 @@
     background-position: 40% 100%;
     background-size: auto 400px;
     position: relative;
-    top: 15rem;
+    top: -2rem;
+    margin-bottom: 4rem;
 }

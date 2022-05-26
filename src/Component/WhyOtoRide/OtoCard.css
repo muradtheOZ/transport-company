@@ -5,8 +5,8 @@
 }
 
 .custom-card-height {
-    height: 493px;
-    width: 274px;
+    height: 100%;
+    width:100%;
 }
 
 .custom-card-shadow {
@@ -23,13 +23,13 @@
 }
 
 .custom-card-title {
-    font-size: 25px;
+    font-size: 90%;
     font-weight: 700;
 }
 
 .custom-card-text {
     color: #858585;
-    font-size: 18px;
+    font-size: 90%;
 }
 
 .display-oto h2 {

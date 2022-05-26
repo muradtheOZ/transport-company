@@ -42,9 +42,10 @@ const AdminApplication = () => {
         return () => clearInterval(interval);
       }, []);
     return (
-        <div className="row mt-5 pt-5 mb-5 pb-5">
+        <div className="mt-4 mb-4 pt-5">
+        <div className="admin-application-main-class container row m-auto">
             <div className="col-md-6 left-side-user">
-            <div className="container ms-5 ps-5">
+            <div className="">
                 <h4>Admin Application</h4>
                 <h2>Super Powerful Real Time Dashboard</h2>
                 <div className="mt-4 pt-3">
@@ -66,10 +67,11 @@ const AdminApplication = () => {
 
             </div>
             </div>
-            <div className="col-md-6 admin-application">
+            <div className="mt-3 col-md-6 admin-application">
                 <img src={imageData} alt="" />
             </div>
 
+        </div>
         </div>
     );
 };
